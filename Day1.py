@@ -2,7 +2,7 @@ from Functions import openfileread, openfilewrite
 import time
 
 time = time.strftime("%A, %d/%b/%Y, %H:%M:%S")
-print("Today is", time)
+print("it's", time)
 
 while True:
     user_action = input("add or show or edit or exit ")
